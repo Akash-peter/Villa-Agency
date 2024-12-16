@@ -1,0 +1,30 @@
+.module61{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+
+    &__first{
+        width: 100%;
+        height: auto;
+        position: relative;   
+
+    }
+    &__second{
+        // display: flex;
+        // justify-content: center;
+        
+        position: absolute;
+        margin-top: -270px;
+        // margin-left: 139px;
+        
+       
+        img{
+            border-radius: 25px;
+        }
+
+    }
+
+    
+
+}
+

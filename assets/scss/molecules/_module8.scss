@@ -1,0 +1,254 @@
+.module8{
+    width: 100%;
+    height: auto;
+    padding-bottom: 600px;
+    
+    &__mod8{
+        width: 100%;
+        height: auto;
+        position: relative;
+
+        img{
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        &__t2{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        
+            &__t1{
+                width: 27%;
+                position: absolute;
+                text-align: center;
+                margin-top: -400px;
+                padding: 20px;
+                h5{
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: orangered;
+                    padding-bottom: 20px;
+                }
+        
+                h1{
+                    font-size: 40px;
+                    font-weight: 700;
+                    color: #ffffff;
+                    line-height: 56px;
+        
+                }
+            }
+    
+        }
+
+    }
+
+    &__mod9{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        margin-top: -140px;
+
+        &__sec1{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+
+
+            &__part1{
+                width: 64%;
+
+                .map-container {
+                    width: 700px;
+                    height: 470px;
+                    border: 1px solid #eee;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                    // box-shadow: rgb(247, 3, 43) 0px 5px 15px;
+                }
+
+                &__boxes{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 20px;
+
+                    .box1{
+                        width: 40%;
+                    }
+                    .box2{
+                        width: 40%;
+                    }
+
+                }
+            }
+
+            &__part2{
+               
+                body {
+                    font-family: Arial, sans-serif;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    margin: 0;
+                    background-color: #f9f9f9;
+                }
+        
+                .form-container {
+                    background-color: #000000;
+                    padding: 30px;
+                    border-radius: 20px;
+                    border: solid 1px #eee;
+                    
+                    // box-shadow: rgb(247, 3, 43) 0px 5px 15px;
+                    width: 330px;
+                }
+        
+                .form-container input, .form-container textarea {
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 30px;
+                    margin-top: 10px;
+                    border: 1px solid #ddd;
+                    border-radius: 20px;
+                    font-size: 14px;
+                    color: black;
+                    background-color: grey;
+                }
+        
+                .form-container textarea {
+                    resize: none;
+                    height: 150px;
+                }
+        
+                .form-container input::placeholder, .form-container textarea::placeholder {
+                    color: #fff;
+                    
+                }
+        
+                .form-container input:focus, .form-container textarea:focus {
+                    outline: none;
+                    border-color: #aaa;
+                    background-color: #fff;
+                }
+        
+                .form-container button {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #e90505;
+                    color: #fff;
+                    border: solid 1px #ffffff;
+                    border-radius: 20px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+        
+                .form-container button:hover {
+                    background-color: #b91818;
+                }
+                
+
+            }
+        }
+
+    }
+    
+    
+    
+}
+
+@include mobile{
+    .module8{
+        width: 100%;
+        
+        
+
+        &__mod8{
+            
+            
+            img{
+                width: 100%;
+                height: 300px;
+            }
+            &__t2{
+                width: 100%;
+                
+    
+                &__t1{
+                    width: 100%;
+                    margin-top: -75%;
+                    padding:35px;
+    
+                    h5{
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: orangered;
+                        padding-bottom: 10px;
+                    }
+            
+                    h1{
+                        font-size: 37px;
+                        font-weight: 700;
+                        color: #ffffff;
+                        line-height: 43px;
+            
+                    }
+                }
+            }
+
+
+        }
+
+        &__mod9{
+            
+            margin-top: 0px;
+    
+            &__sec1{
+                width: 100%;
+                flex-direction: column;
+    
+                &__part1{
+                    width: 100%;
+    
+                    .map-container {
+                        width: 100%;
+                        height: auto;
+                        
+                    }
+    
+                    &__boxes{
+                        width: 100%;
+                        flex-direction: column;
+                        margin-top: 20px;
+    
+                        .box1{
+                            width: 100%;
+                            margin: 10px 0px;
+                        }
+                        .box2{
+                            width: 100%;
+                            margin: 10px 0px;
+                        }
+    
+                    }
+                }
+    
+                &__part2{
+
+                    .form-container {
+                        
+                        width: 100%;
+                    }
+
+                }
+            }
+    
+        }
+        
+    }
+}
+
