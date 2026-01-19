@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #1e1e1e;
+    p{
+        font-size: 16px;
+        color: #ffffff;
+        padding: 40px;
+        font-weight: 400;
+        text-align: left;
+    }
+}
+
+@include mobile{
+
+    .footer{
+        
+        
+        p{
+            text-align: center; 
+            padding-left: 0px;
+            padding-right: 0px;
+
+        }
+    }
+    
+
+}

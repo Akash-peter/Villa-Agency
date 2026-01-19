@@ -1,0 +1,32 @@
+// base
+@import "./base/colors";
+@import "./base/fonts";
+@import "./base/layout";
+@import "./base/breakpoints";
+@import "./base/reset";
+@import "./base/base";
+@import "./base/dev";
+
+// atoms
+@import 'atoms/btn';
+@import 'atoms/headings';
+@import './atoms/box1';
+@import './atoms/box2';
+@import './atoms/box3';
+
+// molecule
+@import 'molecules/test-card';
+@import './molecules/module1';
+@import './molecules/module2';
+@import './molecules/module3';
+@import './molecules/module4';
+@import './molecules/module5';
+@import './molecules/module6';
+@import './molecules/module61';
+@import './molecules/module7';
+@import './molecules/module8';
+@import './molecules/footer';
+
+// organisms
+@import 'organisms/testimonials';
+// pages
